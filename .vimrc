@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+  Plug 'morhetz/gruvbox'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
@@ -21,7 +22,7 @@ call plug#end()
 
 
 set background=dark
-colorscheme peachpuff
+colorscheme gruvbox
 
 
 
