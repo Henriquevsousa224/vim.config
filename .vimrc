@@ -44,7 +44,7 @@ let g:airline_theme='badwolf'
 " ----------------------------------------------------------------------------------------------
 "nerdtree config
 
-" Ignore files and directories that match these patterns
+" Ignore files and directories
 let g:NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$', 'tags']
 
 nnoremap <C-t> :NERDTreeToggle<CR>
